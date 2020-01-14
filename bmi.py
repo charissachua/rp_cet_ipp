@@ -11,6 +11,7 @@ print("bmi: " + str(bmi))
 if bmi < 18:
     print ("You are underweight.")
 elif bmi <25:
+    print("Your weight is ideal.")
 elif bmi < 30:
     print("You are overweight.")
 else:
