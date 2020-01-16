@@ -8,3 +8,5 @@ remaining_secs = 1000 % 60
 print ("Remaining Seconds: " + str(remaining_secs))
 
 print ("Time in mins and secs: " + str(time_in_mins) + "min and " + str(remaining_secs) + "sec")
+
+print("Time in mins and secs: %dmin and %dsec"%(time_in_mins,remaining_secs))
